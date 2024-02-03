@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.imagem{
+    float: left;
+}
+
+img{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 500px;
+}
+
+.menu{
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 500px;
+    float: left;
+}
+
+
+.p1{
+    color: rgb(219, 68, 42);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+.p2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+   
+}
+.login{
+    box-sizing: border-box;
+    
+
+}
+
+.space{
+    position: relative;
+    border-bottom: 2px solid #dddddd;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.space input{
+    width:100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border:none;
+    background: none;
+    outline: none;
+    color: #dddddd;
+    
+    
+}
+
+.esqueceu{
+    margin: -5px 0 20px 5px;
+    color:#dddddd;
+    cursor: pointer;
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.esqueceu a{
+    text-decoration: none;
+    color:#dddddd;
+}
+
+.esqueceu:hover{
+    text-decoration: underline;
+}
+
+.botoes{
+    text-align: center;
+    margin-bottom: 0px
+}
+
+
+button.acessar {
+    width: 40%;
+    height: 50px;
+    border-radius: 0px solid;
+    background: rgb(219, 68, 42);
+    border-radius: 25px;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    
+    
+}
+
+button.acessar:hover{
+    transform: scale(1.04);
+    transition: .5s;
+
+}
+
+button.criar{
+    width: 40%;
+    height: 50px;
+    border-radius: 0px solid;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 16px;
+    color:rgb(219, 68, 42);
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+button.criar:hover{
+    transform: scale(1.04);
+    transition: .5s;
+
+}

@@ -1,0 +1,216 @@
+html{
+    scroll-behavior: smooth ;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+    overflow-x: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+header{
+   background-color:  rgb(219, 68, 42);
+   padding: 15px;
+}
+
+.labareda1{
+    position:absolute;
+    margin-left: 33%;
+    top: 10px;
+}
+.abrir{
+    color: white;
+    font-size: 25px;
+}
+
+nav{
+    height: 100%;
+    width: 0px;
+    /* width: 250px; */
+    background-color:  rgb(219, 68, 42);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 12px 10px 12px 32px 
+}
+
+nav a:hover{
+    color: rgb(219, 68, 42);
+    background-color: white;
+
+}
+
+.p1 {
+    color: rgb(219, 68, 42);
+    font-size: 35px;
+    text-align: center;
+}
+
+.slide-container {
+    width: 100%;
+    height:85vh;
+    align-items: center;
+ 
+}
+
+.image-slider{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slides-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+
+.img{
+    position: relative;
+    width: 240px;
+    height: 370px;
+    transition: 0.5s;   
+    border-radius: 25px;
+
+}
+
+.button {
+    position: absolute;
+    width: 240px;
+    height: 370px;
+    transition: 0.5s;
+    background-color: rgba(163, 79, 58, 0.205);
+    border-radius: 25px;
+   
+}
+
+button:hover{
+    background-color: rgba(197, 178, 173, 0.205);
+}
+
+.carrosel{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~.image-slider #button-1{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~.image-slider #button-2{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~.image-slider #button-3{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~.image-slider #button-4{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~.image-slider #button-5{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span1:target ~.image-slider{
+    left:40%;
+}
+#slider-span2:target ~.image-slider{
+    left:20%;
+}
+#slider-span3:target ~.image-slider{
+    left:0%;
+}
+#slider-span4:target ~.image-slider{
+    left:-20%;
+}
+#slider-span5:target ~.image-slider{
+    left:-40%;
+}
+
+.titulos{
+    
+        color: rgb(219, 68, 42);
+        text-align: center;
+        font-size: 30px;
+        margin-left: -50px;
+   
+
+}
+
+.cardapioimg{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.mapa{
+    margin-top: 30px;
+    margin-left: 29%;
+    width: 600px;
+    height: 400px;
+    background: white;
+}
+
+.textosobre{
+    width: 500px;
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    float: left;
+}
+
+.fotominha{
+    width: 300px;
+    float: right;
+    margin-right: 200px;
+    border-radius: 50%;
+}
+
+.contato{
+    margin-top: 200px;
+}
